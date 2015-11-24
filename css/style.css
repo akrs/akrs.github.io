@@ -218,12 +218,12 @@
 		display: block;
 		font-size: 0.9em;
 		font-weight: 300;
-		margin: 0 0 1em 0;
 	}
 
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
+	input[type="number"],
 	select,
 	textarea {
 		-moz-appearance: none;
@@ -240,6 +240,7 @@
 		padding: 0 1em;
 		text-decoration: none;
 		width: 100%;
+		margin-bottom: 1em;
 	}
 
 		input[type="text"]:invalid,
